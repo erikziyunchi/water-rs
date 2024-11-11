@@ -14,7 +14,7 @@ water = { path = "../crates/water" }
 tracing = "0.1"
 tracing-subscriber = "0.3.17"
 rand = "0.8"
-pprof = { version = "0.13.0", features = ["flamegraph", "protobuf-codec", "prost-codec"] }
+pprof = { version = "0.14.0", features = ["flamegraph", "protobuf-codec", "prost-codec"] }
 anyhow = "1.0.7"
 shadowsocks-service = {version = "1.17.0", features = ["server"]}
 shadowsocks-rust = "1.17.0"
