@@ -1,0 +1,18 @@
+[package]
+name = "water_macros"
+version = "0.0.1"
+authors.workspace = true
+description.workspace = true
+edition.workspace = true
+
+[lib]
+proc-macro = true
+doctest=false
+
+[features]
+
+[dependencies]
+proc-macro2 = "1.0.7"
+quote = "1"
+lazy_static = "~1.4.0"
+syn = { version = "2.0", features = ["full"] }
