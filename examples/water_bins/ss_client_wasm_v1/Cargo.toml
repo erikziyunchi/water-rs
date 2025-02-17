@@ -12,7 +12,7 @@ path = "src/lib.rs"
 crate-type = ["cdylib"]
 
 [dependencies]
-shadowsocks-crypto = "0.5.1"
+shadowsocks-crypto = "0.6.1"
 
 # ============== WATER import below
 tokio = { version = "1.24.2", default-features = false, features = ["net", "rt", "macros", "io-util", "io-std", "time", "sync"] }
